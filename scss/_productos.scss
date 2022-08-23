@@ -1,0 +1,84 @@
+
+/*Seccion productos*/
+
+
+.productos2{
+    background-color: #e7c9c9;
+}
+
+.prod-h2{
+   color: black;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Manrope', sans-serif;
+font-family: 'Square Peg', cursive;
+}
+
+.cajacart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart{
+    width: 4rem;
+    height: 4rem;
+    align-self: center;
+}
+
+.card__productos2{
+    position: relative;
+    width: 17rem;
+    height: 24rem;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid grey;
+    overflow: hidden;
+    margin: auto auto;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+     padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.card__caja2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+// .card__imagen2{
+//     width: 15rem;
+//     height: 14rem;
+//     max-width: 100%;
+//     margin: auto;
+// }
+
+.card__caja2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.productos2 p{
+    margin-right: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-weight: 550;
+    font-size: 40px;
+    line-height: 1;
+    font-family: 'Manrope', sans-serif;
+font-family: 'Square Peg', cursive;
+}
+
+.card__productos2:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out 1s;
+}
+
